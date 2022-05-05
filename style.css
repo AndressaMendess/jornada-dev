@@ -97,6 +97,7 @@
 .right-title {
     color: #eeeeee;
     font-size: 22px;
+    font-weight: bold;
     padding-bottom: 10px;
 }
 
@@ -105,4 +106,46 @@
 }
 .about-me {
     color: #eeeeee;
+}
+
+#exp-cont {
+    padding-left: 2rem;
+}
+.experience-content,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding-bottom: 2rem; */
+    padding: 2rem 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-name,
+.education-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+#name02, #pos02 {
+    padding-top: 35px;
+}
+.exp-description,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }

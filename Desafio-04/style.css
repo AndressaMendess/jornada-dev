@@ -108,11 +108,13 @@
     color: #eeeeee;
 }
 
-#exp-cont {
+#exp-cont,
+#form-title {
     padding-left: 2rem;
 }
+
 .experience-content,
-.education-contents,
+.education-content,
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -140,7 +142,8 @@
     font-size: 25px;
 }
 
-#name02, #pos02 {
+#name02, #pos02,
+#form02, #curso02 {
     padding-top: 35px;
 }
 .exp-description,
